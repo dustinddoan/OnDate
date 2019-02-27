@@ -13,5 +13,6 @@ namespace OnDateAPI.Data
 
         // tell EF about the entity, type DbSet type Value, Values=> table name
         public DbSet<Value> Values { get; set; }
+        public DbSet<User> Users { get; set; }
     }
 }
